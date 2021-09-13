@@ -17,7 +17,7 @@ public class SubscriptionApiRequest {
 
     @Min(value = 1, message = "dayOfMonth should not be less than 1")
     @Max(value = 31, message = "dayOfMonth should not be greater than 31")
-    private int dayOfMonth;
+    private Integer dayOfMonth;
     private Date startDate;
     private Date endDate;
 }
